@@ -1,0 +1,41 @@
+/*.banner
+  width: 700px;
+  height: 300px;
+  border: 3px solid  red ;
+  margin: auto;
+
+
+  background-image: url(imagenes/abvil.jpg);
+
+  background-size: 100% 100%;
+
+
+  animation-name: Banner;
+  animation-duration: 10s;
+  animation-iteration-count: infinite;
+  animation-direction: alternate;
+}
+@keyframes Banner {
+  0%, 30%{
+         background-image: url(imagenes/abvil.jpg);
+         opacity: 1;
+        }
+        31%, 34%{
+          opacity: 0.1;
+        }
+
+    35%, 65%{
+    background-image: url(imagenes/aceta.jpg);
+    opacity: 1;
+
+        66%, 69%{
+         opacity: 0.1;
+        }
+    }
+     70%, 100%{
+       opacity: 1;;
+      background-image: url(imagenes/ampicilina.jpg);
+     }          
+
+
+    }
